@@ -18,11 +18,11 @@ print('Your grafana host without protocol specification (e.g. localhost:3000). '
 GRAFANA_HOST = input('Enter your GRAFANA_HOST:')
 print('Your grafana editor/admin API key, find or create one under Configuration -> API keys.')
 GRAFANA_TOKEN = input('Enter your GRAFANA_TOKEN:')
-print('Your Logz.io account API token, find it under settings -> tools -> manage tokens -> API tokens.')
+print('Your grafana editor/admin API key, find or create one under Configuration -> API keys.')
 GRAFANA_HOST_DST = input('Enter your GRAFANA_HOST_DST:')
 print('Your grafana editor/admin API key, find or create one under Configuration -> API keys.')
 GRAFANA_TOKEN_DST = input('Enter your GRAFANA_TOKEN_DST:')
-print('Your Logz.io account API token, find it under settings -> tools -> manage tokens -> API tokens.')
+print('Your grafana editor/admin API key, find or create one under Configuration -> API keys.')
 
 dirName = "dashboards"
 
