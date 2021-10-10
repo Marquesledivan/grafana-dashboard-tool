@@ -3,7 +3,7 @@
 """
 version: 1.0 
 Author: Ledivan B. Marques
-    Email:	ledivan.marques@contaquanto.com.br
+    Email:	ledivan_bernardo@yahoo.com.br
 """
 import logging
 logging.basicConfig(format='%(asctime)s - %(levelname)s : %(message)s', level=logging.INFO)

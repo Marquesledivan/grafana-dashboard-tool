@@ -3,8 +3,7 @@
 """
 version: 1.0 
 Author: Ledivan B. Marques
-    Email:	ledivan.marques@contaquanto.com.br
-This module is for validating user's input
+    Email:	ledivan_bernardo@yahoo.com.br
 """
 
 import re
