@@ -47,7 +47,6 @@ SUPPORTED_PANELS = ['graph', 'grafana-worldmap-panel', 'grafana-piechart-panel',
 # validate inputs
 input_validator.is_valid_grafana_host(GRAFANA_HOST)
 input_validator.is_valid_grafana_api_token(GRAFANA_TOKEN)
-
 input_validator.is_valid_grafana_host(GRAFANA_HOST_DST)
 input_validator.is_valid_grafana_api_token(GRAFANA_TOKEN_DST)
 
