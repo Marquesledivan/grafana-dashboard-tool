@@ -88,6 +88,7 @@ def _init_dashboard_list(uid_list, base_url, r_headers):
            os.mkdir(dirName)
         with open(dirName+"/"+dash_title, 'w') as json_file:
             json_file.write(json.dumps(dashboard["dashboard"], sort_keys=True, indent=4, separators=(',', ': ')))
+            json_file.close()
         try:
             del dashboard['meta']
         except KeyError:
